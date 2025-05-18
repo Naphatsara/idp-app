@@ -22,9 +22,9 @@ spec:
   - description: Read Write
     name: read-write   
     policies:
-    - p, proj:cart:read-write, applications, get, team-a/*, allow
-    - p, proj:cart:read-write, applications, sync, team-a/*, allow
-    - p, proj:cart:read-write, applications, update, team-a/*, allow        
+    - p, proj:cart:read-write, applications, get, cart/*, allow
+    - p, proj:cart:read-write, applications, sync, cart/*, allow
+    - p, proj:cart:read-write, applications, update, cart/*, allow        
   sourceRepos:
   - git@github.com:Naphatsara/nonprod-k8s-manifests.git
   
