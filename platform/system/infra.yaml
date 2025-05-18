@@ -20,4 +20,4 @@ spec:
     namespace: '*'
     server: '*'  
   sourceRepos:
-  - https://github.com/kostis-codefresh/*
+  - git@github.com:Naphatsara/nonprod-k8s-manifests.git
