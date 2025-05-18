@@ -7,10 +7,10 @@ metadata:
     app.kubernetes.io/name: argocd-cm
     app.kubernetes.io/part-of: argocd
 data:
-  # Team A
+  # Team A (cart)
   accounts.nongkai: apiKey, login
   accounts.nongkai.enabled: "true"
-  # Team B
+  # Team B (payment)
   accounts.nongped: apiKey, login
   accounts.nongped.enabled: "true"
   # Infra
