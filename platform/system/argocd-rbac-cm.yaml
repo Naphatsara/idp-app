@@ -8,8 +8,8 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   policy.csv: |
-    g, nongkai, proj:team-a:read-write
-    g, nongkai, proj:team-b:read-only
-    g, nongped, proj:team-b:read-write
+    g, nongkai, proj:cart:read-write
+    g, nongkai, proj:payment:read-only
+    g, nongped, proj:payment:read-write
     p, pukjee, applications, *, */*, allow
     p, pukjee, projects, get, *, allow

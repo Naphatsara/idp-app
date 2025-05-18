@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cart
+  name: cart-app
   namespace: argocd
 spec:
-  project: default
+  project: cart
   source:
     repoURL: git@github.com:Naphatsara/nonprod-k8s-manifests.git
     targetRevision: main
