@@ -9,7 +9,8 @@ metadata:
 data:
   policy.csv: |
     g, nongkai, proj:cart:read-write
-    g, nongkai, proj:payment:read-only
+    g, nongkai, proj:infra:read-only
     g, nongped, proj:payment:read-write
+    g, nongped, proj:cart:read-only
     p, pukjee, applications, *, */*, allow
     p, pukjee, projects, get, *, allow

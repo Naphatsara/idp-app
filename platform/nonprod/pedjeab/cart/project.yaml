@@ -18,13 +18,13 @@ spec:
   - description: Read Only
     name: read-only
     policies:
-    - p, proj:team-a:read-only, applications, get, team-a/*, allow
+    - p, proj:cart:read-only, applications, get, cart/*, allow
   - description: Read Write
     name: read-write   
     policies:
-    - p, proj:team-a:read-write, applications, get, team-a/*, allow
-    - p, proj:team-a:read-write, applications, sync, team-a/*, allow
-    - p, proj:team-a:read-write, applications, update, team-a/*, allow        
+    - p, proj:cart:read-write, applications, get, team-a/*, allow
+    - p, proj:cart:read-write, applications, sync, team-a/*, allow
+    - p, proj:cart:read-write, applications, update, team-a/*, allow        
   sourceRepos:
   - git@github.com:Naphatsara/nonprod-k8s-manifests.git
   
